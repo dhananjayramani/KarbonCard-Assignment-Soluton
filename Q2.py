@@ -34,6 +34,6 @@ class test_output(unittest.TestCase):
                                 {"id":"3", "agent":"Ton", "unit":"#12", "description":"Beautiful 1-bedroom apartment with nearby yoga studio.", "num_bedrooms":"1"},
                                 {"id":"4", "agent":"Fishel", "unit":"#13", "description":"Beautiful studio with a nearby art studio.", "num_bedrooms":"1"}])
         actual_op = correct_num_bedrooms(input_data)
-        expected_op = [0,1,10]
+        expected_op = [0,1,1,0]
         self.assertEqual(actual_op,expected_op)
 
